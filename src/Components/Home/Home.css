@@ -1,13 +1,70 @@
-.full-body{
-    background-color: #FFFFFC;
+
+.bg-1{
+    background-color: #FFFFF9;
+}
+.bg-2{
+    background-color: #FFFDE2;
+}
+.bg-4{
+    background-color: #FFFBD2;
+}
+.bg-5{
+    background-color: #FFFAC0;
 }
 .logo-center{
     justify-content: center;
 }
-
-
-
+.border-top {
+    border: 2px solid #EC3237!important;
+}
+.dot{
+    font-weight: bold;
+    font-size: 30px;
+}
+.content1{
+   
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+.content{
+    font-weight: 500;
+    text-align: justify;
+}
+.content3{
+    font-weight: 450;
+}
 
 .footer{
     background-color: #EC3237;
 }
+@media (min-width: 576px) { 
+    .full-body {
+     text-align: justify; 
+    }
+        .m-img{
+            width: 80%;
+            height: 400px;
+        }
+       
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }
